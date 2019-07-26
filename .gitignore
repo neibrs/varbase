@@ -3,6 +3,8 @@ docroot/files
 docroot/sites/*/files
 docroot/sites/*/private
 docroot/sites/*/settings.local.php
+docroot/sites/*/settings.php
+docroot/sites/*/services.yml
 docroot/*/settings.local.php
 acquia-file
 /log
