@@ -39,7 +39,9 @@
     "vardot/varbase": "~8.7.0",
     "vardot/varbase-updater": "~1.0",
     "wikimedia/composer-merge-plugin": "^1.4",
-    "zaporylie/composer-drupal-optimizations": "^1.1"
+    "zaporylie/composer-drupal-optimizations": "^1.1",
+    "drush/drush": "^9.7",
+    "npm-asset/highlightjs": "^9.12"
   },
   "replace": {
     "ajaxorg/ace-builds": "*"
