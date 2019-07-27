@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f706bbd6f47cf91d76c9a8ec9472d8dc",
+    "content-hash": "d289ad858a61bcb278ca17828ec1dad1",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -8390,8 +8390,7 @@
             "homepage": "https://www.drupal.org/project/file_mdm",
             "support": {
                 "source": "https://git.drupalcode.org/project/file_mdm"
-            },
-            "time": "2019-04-16T14:20:55+00:00"
+            }
         },
         {
             "name": "drupal/file_mdm_exif",
