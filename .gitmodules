@@ -1,0 +1,3 @@
+[submodule "docroot/modules/neibers"]
+	path = docroot/modules/neibers
+	url = git@github.com:neibrs/neibers.git
