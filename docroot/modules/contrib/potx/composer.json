@@ -1,0 +1,19 @@
+{
+  "name": "kgaut/potx",
+  "description": "Translation template extractor port for Drupal 8",
+  "keywords": ["l10n","drupal8","drupal"],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://mespronos.net",
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "potx",
+    "drush": {
+      "services": {
+        "drush.services.yml": "^9"
+      }
+    }
+  },
+  "type":"drupal-module"
+}

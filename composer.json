@@ -38,9 +38,8 @@
     "webmozart/path-util": "~2.0",
     "vardot/varbase": "~8.7.0",
     "vardot/varbase-updater": "~1.0",
-    "drupal/console": "^1.9",
-    "drush/drush": "^9.7",
-    "bower-asset/highlightjs": "^9.12"
+    "wikimedia/composer-merge-plugin": "^1.4",
+    "zaporylie/composer-drupal-optimizations": "^1.1"
   },
   "replace": {
     "ajaxorg/ace-builds": "*"
@@ -125,6 +124,14 @@
     "composer-exit-on-patch-failure": true,
     "patchLevel": {
        "drupal/core": "-p2"
+    },
+    "merge-plugin": {
+      "include": [
+        "docroot/modules/neibers/composer.json"
+      ],
+      "recurse": true,
+      "replace": false,
+      "merge-extra": false
     }
   }
 }
